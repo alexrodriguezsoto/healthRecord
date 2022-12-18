@@ -37,3 +37,9 @@ Then user complete the month/day/year of born in the "mm/dd/yyyy" field
 Then user verifies if the "Submit" tab exists
 And user clicks on the "Submit" tab
 When the credentials are incorrect or the user is brand new the "Match not found in our system" displays
+
+Scenario: User Credentials for view your health record --> from Alex Branch
+
+Given user navigates to the home page "https://www.beauregardmedicalctr.com"
+Then user verifies if "PATIENTS" tab exists
+Then user clicks on "PATIENTS" tab
